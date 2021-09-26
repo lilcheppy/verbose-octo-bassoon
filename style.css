@@ -1,0 +1,49 @@
+/* start with zero padding or margins */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  border: 1px solid black;
+  width: 1000px;
+  height: 400px;
+  padding: 0%;
+  margin: 0%;
+  position: fixed;
+}
+
+.dino {
+  width: 40px;
+  height: 100px;
+  /* background-color: green; */
+  position: fixed;
+  top: 300px;
+}
+
+.cactus {
+  width: 40px;
+  height: 40px;
+  top: 360px;
+  left: 917px;
+  position: fixed;
+}
+
+.hidden {
+  display: none;
+}
+
+.shift--up {
+  transform: translateY(-100px);
+}
+
+.game--Over {
+  font-size: 4rem;
+  font-weight: 300;
+  color: #c7365f;
+  margin-bottom: auto;
+  position: fixed;
+  padding: 0%;
+  margin: 0%;
+  z-index: 1;
+}
